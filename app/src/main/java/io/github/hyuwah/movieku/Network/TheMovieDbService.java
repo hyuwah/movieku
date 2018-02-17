@@ -15,7 +15,7 @@ import retrofit2.http.Query;
 
 public interface TheMovieDbService {
 
-  String API_KEY = "***REMOVED***";
+  String API_KEY = "replacewithyours";
 
   @GET("movie/{category}")
   Call<MovieList> getMoviesByCategory(
