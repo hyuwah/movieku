@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+      android:title="Search"
+      android:icon="@drawable/ic_search_white_24dp"
+      app:showAsAction="ifRoom"
+      app:actionViewClass="android.support.v7.widget.SearchView" />
+
+
+    <item
+      android:id="@+id/action_category_now_playing"
+      android:title="Now Playing"
+      app:showAsAction="never"/>
+    <item
+      android:id="@+id/action_category_popular"
+      android:title="Popular"
+      app:showAsAction="never"/>
+    <item
+      android:id="@+id/action_category_top_rated"
+      android:title="Top Rated"
+      app:showAsAction="never"/>
+    <item
+      android:id="@+id/action_category_latest"
+      android:title="Latest"
+      app:showAsAction="never"/>
+    <item
+      android:id="@+id/action_category_upcoming"
+      android:title="Upcoming"
+      app:showAsAction="never"/>
+
+
+
+
+</menu>
